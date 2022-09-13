@@ -3,7 +3,7 @@ import { Admin, Resource, ListGuesser } from 'react-admin';
 import { defaultTheme } from 'react-admin';
 import jsonServerProvider from 'ra-data-json-server';
 
-import srcConfig from '../appConfig/srcConfig.json'
+import srcConfig from './srcConfig.json'
 
 const myTheme = {
     ...defaultTheme,

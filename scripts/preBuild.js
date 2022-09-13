@@ -24,5 +24,5 @@ const test = populateConfig()
 function populateConfig() {
     const fs = require('fs');
     const stringifiedConfig = JSON.stringify(config)
-    fs.writeFile("appConfig/srcConfig.json", stringifiedConfig, ()=>{});
+    fs.writeFile("src/srcConfig.json", stringifiedConfig, ()=>{});
 }
