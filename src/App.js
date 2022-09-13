@@ -3,15 +3,13 @@ import { Admin, Resource, ListGuesser } from 'react-admin';
 import { defaultTheme } from 'react-admin';
 import jsonServerProvider from 'ra-data-json-server';
 
+import srcConfig from '../appConfig/srcConfig.json'
+
 const myTheme = {
     ...defaultTheme,
     palette: {
         ...defaultTheme.palette,
-        // primary: '#e8eaf6',
-        // secondary: '#fce4ec',
-        // error: '#ffebee',
-        contrastThreshold: 3,
-        tonalOffset: 0.2,
+        ...srcConfig.theme.palette,
     },
     typography: {
         // Use the system font instead of the default Roboto font.
