@@ -5,11 +5,11 @@
 const config = {
     "client": "848feb58-e832-4e2c-a3a4-c8fdd3697245",
     "theme": {
-        "palette": {
+        "_palette": {
             "contrastThreshold": 3,
             "tonalOffset": 0.2
         },
-        "_palette": {
+        "palette": {
             "primary": "#e8eaf6",
             "secondary": "#fce4ec",
             "error": "#ffebee",
